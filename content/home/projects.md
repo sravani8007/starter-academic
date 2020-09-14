@@ -6,7 +6,17 @@ active = true  # Activate this widget? true/false
 weight = 65  # Order that this section will appear.
 
 title = "Projects"
-subtitle = "Algorithms"
+subtitle = "1.	Solving Maximum Flow Problem using Capacity Scaling. Finding augment paths and amount of flow on each edge when maximum flow has been found.
+2.	To understand String Processing techniques, I implemented greedy heuristic algorithm to the shortest common superstring problem (SCS)
+3.	Finding the longest common subsequence of two sequences in Cost Matrix method and LSIS Method.
+4.	Building UTA Facility reservation System to understand software development, design, test and code along with agile development methodologies.
+5.	Implementing b+ tree insertion and deletion to understand the operations and behavior of binary/balanced tree.
+6.	The idea is to categorize a very large dataset of US Census using Hadoop Map/Reduce and measure performance improvement with different number of mappers/reducers.
+7.	Implementing simple drawing area application and apply different patterns to overcome some limitations
+8.	Generating Feature vector and ML models to produce use cases from requirements by using machine learning algorithms such as WEKA and AUTO-WEKA and apply different design patterns to improve its efficiency.
+9.	Implementing office hours schedule to better understand Threads, Deadlocks, Starvation.
+10.	Implementing Memory management techniques (First fit, Best Fit, Worst Fit, Next Fit)
+"
 
 [content]
   # Page type to display. E.g. project.
