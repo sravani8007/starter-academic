@@ -18,27 +18,29 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
+  title = "Senior Software Engineer"
+  company = "Prithvi Information Solutions "
   company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
-  date_end = ""
+  location = "India"
+  date_start = "2018-06-01"
+  date_end = "2019-05-01"
   description = """
-  Responsibilities include:
-  
-  * Analysing
-  * Modelling
-  * Deploying
+ •	Developed a Supply Chain Dashboard using OAF, Java and Pl/Sql that provides visibility of Supply/Demand
+•	Designed and developed a Cross Model solution that validates the option combinations in a sales order without manual intervention which reduces the Quality costs by 30% 
+•	Designed and developed a spreadsheet interface which allows users to create/update Sales Orders 
+
   """
 
 [[experience]]
-  title = "Professor"
-  company = "University X"
-  company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+   title = "Software Engineer"
+ # company = "University X"
+ # company_url = ""
+ # location = "California"
+  date_start = "2016-12-01"
+  date_end = "2018-05-31"
+  description = """•	Increased the capability of the Client’s ERP system tenfold to perform one million transactions every two hours
+•	Designed a real-time software communication link between the supplier and the procuring organization with real time access to raw material
+•	Rewrote the item import application by migrating it from the existing web app to Oracle applications. 
+"""
 
 +++
