@@ -19,6 +19,11 @@ subtitle = ""
   # icon_pack = "fab"
   name = "Languages"
   description = "c,java,python,HTML,SQL,PLSQL"
+
+  icon = "java"
+  icon_pack = "fab"
+  name = "Languages"
+  description = "java"
   
 [[feature]]
  # icon = "chart-line"
