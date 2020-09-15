@@ -14,24 +14,43 @@ subtitle = ""
 # 
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
 
-[[feature]]
+# [[feature]]
   # icon = "r-project"
   # icon_pack = "fab"
-  name = "Languages"
-  description = "c,java,python,HTML,SQL,PLSQL"
+  # name = "Languages"
+  # description = "c,java,python,HTML,SQL,PLSQL"
+
+[[feature]]
+  icon = "c-programming"
+  icon_pack = "custom"
+  name = "C"
+  description = ""
 
 [[feature]]
   icon = "java"
   icon_pack = "fab"
-  name = "Languages"
-  description = "java"
+  name = "Java"
+  description = ""
 
 [[feature]]
   icon = "python"
   icon_pack = "fab"
-  name = "Languages"
-  description = "python"
+  name = "Python"
+  description = ""
   
+[[feature]]
+  icon = "html5"
+  icon_pack = "fab"
+  name = "HTML"
+  description = ""
+  
+[[feature]]
+  icon = "database"
+  icon_pack = "fab"
+  name = "Oracle"
+  description = ""
+    
+
 [[feature]]
  # icon = "chart-line"
   # icon_pack = "fas"
