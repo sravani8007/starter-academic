@@ -32,15 +32,19 @@ date_format = "Jan 2006"
   """
 
 [[experience]]
-   title = "Software Engineer"
+  title = "Software Engineer"
  # company = "University X"
  # company_url = ""
  # location = "California"
+  company = "Prithvi Information Solutions "
+  company_url = ""
+  location = "India"
   date_start = "2016-12-01"
   date_end = "2018-05-31"
-  description = """•	Increased the capability of the Client’s ERP system tenfold to perform one million transactions every two hours
-•	Designed a real-time software communication link between the supplier and the procuring organization with real time access to raw material
-•	Rewrote the item import application by migrating it from the existing web app to Oracle applications. 
+  description = """
+  . Increased the capability of the Client’s ERP system tenfold to perform one million transactions every two hours
+  . Designed a real-time software communication link between the supplier and the procuring organization with real time access to raw material
+  . Rewrote the item import application by migrating it from the existing web app to Oracle applications. 
 """
 
 +++
