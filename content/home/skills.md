@@ -20,10 +20,17 @@ subtitle = ""
   name = "Languages"
   description = "c,java,python,HTML,SQL,PLSQL"
 
+[[feature]]
   icon = "java"
   icon_pack = "fab"
   name = "Languages"
   description = "java"
+
+[[feature]]
+  icon = "python"
+  icon_pack = "fab"
+  name = "Languages"
+  description = "python"
   
 [[feature]]
  # icon = "chart-line"
