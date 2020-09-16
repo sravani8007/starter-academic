@@ -21,26 +21,26 @@ subtitle = ""
   # description = "c,java,python,HTML,SQL,PLSQL"
 
 [[feature]]
-  icon = "Eclipse"
+  icon = "eclipse"
   icon_pack = "custom"
   name = "Eclipse"
   description = ""
 
 [[feature]]
-  icon = "Visual Studio"
-  icon_pack = "fab"
+  icon = "vscode"
+  icon_pack = "custom"
   name = "Visual Studio"
   description = ""
 
 [[feature]]
-  icon = "SQL Developer"
-  icon_pack = "fab"
+  icon = "sqldeveloper"
+  icon_pack = "custom"
   name = "SQL Developer"
   description = ""
   
 [[feature]]
-  icon = "NetBeans"
-  icon_pack = "fab"
+  icon = "netbeans"
+  icon_pack = "custom"
   name = "NetBeans"
   description = ""
   

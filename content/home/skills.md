@@ -43,11 +43,17 @@ subtitle = ""
   icon_pack = "fab"
   name = "HTML"
   description = ""
-  
+
 [[feature]]
   icon = "database"
-  icon_pack = "fab"
-  name = "Oracle"
+  icon_pack = "custom"
+  name = "SQL"
+  description = ""
+
+[[feature]]
+  icon = "oracle"
+  icon_pack = "custom"
+  name = "Oracle Pl/SQL"
   description = ""
     
 
