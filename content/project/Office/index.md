@@ -1,6 +1,6 @@
 ---
 title: Office hours Schedule
-summary:Created Office hours schedule using Threads, Deadlocks and Starvation.
+summary: Created Office hours schedule using Threads, Deadlocks and Starvation.
 tags:
 - Java
 date: "2016-04-27T00:00:00Z"
