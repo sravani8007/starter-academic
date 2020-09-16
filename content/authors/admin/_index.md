@@ -53,7 +53,7 @@ social:
 #   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
 - icon: linkedin
   icon_pack: fab
-  link: https://www.linkedin.com/
+  link: https://www.linkedin.com/in/sravani-suravajhula-0a024a1a7/
 - icon: github
   icon_pack: fab
   link: https://github.com/sravani8007
