@@ -51,12 +51,7 @@ subtitle = ""
   description = ""
     
 
-[[feature]]
- # icon = "chart-line"
-  # icon_pack = "fas"
-  name = "Tools"
-  description = "Eclipse,Visual Studio,SQL Developer,NetBeans"  
-  
+
 [[feature]]
  # icon = "camera-retro"
  # icon_pack = "fas"
