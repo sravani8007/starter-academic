@@ -1,8 +1,6 @@
 ---
 title: Feature Vector
-summary: Generating Feature vector and ML models to produce use cases from requirements by using machine
-learning algorithms such as WEKA and AUTO-WEKA and apply different design patterns to improve
-its efficiency
+summary: Generating Feature vector and ML models by using machine learning algorithms 
 tags:
 - Java
 date: "2016-04-27T00:00:00Z"
