@@ -1,6 +1,6 @@
 ---
-title: Reservation System
-summary: UTA Facility reservation System to understand software development, design, test and code.
+title: Drawing Area Application
+summary: . Created a drawing area application using different design pattern to overcome some limitations.
 tags:
 - Java
 date: "2016-04-27T00:00:00Z"
@@ -30,5 +30,4 @@ external_link: ""
 slides: example
 ---
 
-Built a UTA Facility reservation System to understand software development, design, test and code
-along with agile development methodologies.
+Created a drawing area application using different design pattern to overcome some limitations

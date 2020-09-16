@@ -1,6 +1,6 @@
 ---
-title: Reservation System
-summary: UTA Facility reservation System to understand software development, design, test and code.
+title: Office hours Schedule
+summary:Created Office hours schedule using Threads, Deadlocks and Starvation.
 tags:
 - Java
 date: "2016-04-27T00:00:00Z"
@@ -29,6 +29,4 @@ external_link: ""
 #   Otherwise, set `slides = ""`.
 slides: example
 ---
-
-Built a UTA Facility reservation System to understand software development, design, test and code
-along with agile development methodologies.
+Created Office hours schedule using Threads, Deadlocks and Starvation

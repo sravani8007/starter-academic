@@ -1,6 +1,8 @@
 ---
-title: Reservation System
-summary: UTA Facility reservation System to understand software development, design, test and code.
+title: Feature Vector
+summary: Generating Feature vector and ML models to produce use cases from requirements by using machine
+learning algorithms such as WEKA and AUTO-WEKA and apply different design patterns to improve
+its efficiency
 tags:
 - Java
 date: "2016-04-27T00:00:00Z"
@@ -30,5 +32,6 @@ external_link: ""
 slides: example
 ---
 
-Built a UTA Facility reservation System to understand software development, design, test and code
-along with agile development methodologies.
+Generating Feature vector and ML models to produce use cases from requirements by using machine
+learning algorithms such as WEKA and AUTO-WEKA and apply different design patterns to improve
+its efficiency
