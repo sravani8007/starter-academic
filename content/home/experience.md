@@ -24,9 +24,8 @@ date_format = "Jan 2006"
   location = "India"
   date_start = "2018-06-01"
   date_end = "2019-05-01"
-  description = """
- •	Developed a Supply Chain Dashboard using OAF, Java and Pl/Sql that provides visibility of Supply/Demand
-•	Designed and developed a Cross Model solution that validates the option combinations in a sales order without manual intervention which reduces the Quality costs by 30% 
+  description = """Developed a Supply Chain Dashboard using OAF, Java and Pl/Sql that provides visibility of Supply/Demand"""
+  """Designed and developed a Cross Model solution that validates the option combinations in a sales order without manual intervention which reduces the Quality costs by 30% 
 •	Designed and developed a spreadsheet interface which allows users to create/update Sales Orders 
 
   """
