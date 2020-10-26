@@ -1,8 +1,9 @@
 ---
 title: Overfitting
-summary: Created Office hours schedule using Threads, Deadlocks and Starvation.
+summary: Using polynomial regression idetified the Overfitting and then using regularization
+        improved the results.
 tags:
-- Java
+- Python
 date: "2016-04-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
