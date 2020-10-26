@@ -31,6 +31,7 @@ external_link: ""
 slides: example
 ---
 
+
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
