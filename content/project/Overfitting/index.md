@@ -30,4 +30,4 @@ external_link: ""
 #   Otherwise, set `slides = ""`.
 slides: example
 ---
-Created Office hours schedule using Threads, Deadlocks and Starvation
+Using polynomial regression idetified the Overfitting and then using regularization improved the results.
