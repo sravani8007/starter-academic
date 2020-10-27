@@ -1,3 +1,9 @@
+### Assignment 1
+
+Name: Sravani Suravajhula
+Id:1001778007
+
+
 ---
 title: Overfitting
 summary: Using polynomial regression idetified the Overfitting and then using regularization
@@ -139,7 +145,7 @@ for i in range(len(y_predict)):
 ```
 
 
-![png](./Suravajhula_01_8_0.png)
+![png](./Suravajhula_01_9_0.png)
 
 
 ### e.train error vs test error
@@ -183,7 +189,7 @@ plt.ylim(0,1)
 
 
 
-![png](./Suravajhula_01_10_1.png)
+![png](./Suravajhula_01_11_1.png)
 
 
 ### f.generating 100 more data and fit 9th order model and drawing fit
@@ -233,7 +239,7 @@ for i in range(len(y_predict_more_data)):
 ```
 
 
-![png](./Suravajhula_01_12_0.png)
+![png](./Suravajhula_01_13_0.png)
 
 
 ### g&h.Regularizing by using Ridge Regression and drawing chart for lambda is 1, 1/10, 1/100, 1/1000, 1/10000, 1/100000
@@ -264,7 +270,7 @@ for i,a in enumerate(lambdas):
 ```
 
 
-![png](./Suravajhula_01_14_0.png)
+![png](./Suravajhula_01_15_0.png)
 
 
 ### i.drawing test and train error according to lamda
@@ -308,7 +314,7 @@ plt.legend()
 
 
 
-![png](./Suravajhula_01_16_1.png)
+![png](./Suravajhula_01_17_1.png)
 
 
 ### Conclusion: 
