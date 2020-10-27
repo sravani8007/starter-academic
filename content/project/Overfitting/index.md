@@ -1,7 +1,4 @@
-### Assignment 1
 
-Name: Sravani Suravajhula
-Id:1001778007
 
 
 ---
@@ -23,6 +20,13 @@ url_code: "files/Suravajhula_01.ipynb"
 #url_video: ""
 
 ---
+
+
+### Assignment 1
+
+Name: Sravani Suravajhula
+Id:1001778007
+
 
 ### a.Generating 20 data pairs
 
