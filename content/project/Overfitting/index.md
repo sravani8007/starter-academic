@@ -311,15 +311,19 @@ plt.legend()
 
 
 ### Conclusion: 
-    In this project, to understand the overfitting i started with Polynomial regression for 4 different degrees using 
-    the Linear regression with polynomial features.
+    In this project, to understand the overfitting i started with Polynomial 
+    regression for 4 different degrees using the Linear regression with 
+    polynomial features.
     
-    Based on the results, i observed overfitting clearly for the 9th order polynomial. To regulrize the 9th order 
-    polynomial i used Ridge regression with Plynomial Features.
+    Based on the results, i observed overfitting clearly for the 9th order 
+    polynomial. To regulrize the 9th order polynomial i used Ridge regression 
+    with Polynomial Features.
     
-    Finally, i found the best lambda value for my model with degree 9 is 10^-4(0.0001), When i use this lambda 
-    value there is no difference in test error and train error. With this lambda value along with RMS values, 
-    even the trained data graph (as shown in section h) closely follows the expected data (Original wave)
+    Finally, i found the best lambda value for my model with degree 9 is 
+    10^-4(0.0001), When i use this lambda value there is no difference in 
+    test error and train error. With this lambda value along with RMS values, 
+    even the trained data graph (as shown in section h) closely follows 
+    the expected data (Original wave)
     
     This infers, my model is degree 9 model with mabda value 10^-4
 
