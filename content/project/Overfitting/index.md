@@ -5,31 +5,19 @@ summary: Using polynomial regression idetified the Overfitting and then using re
 tags:
 - Python
 date: "2016-04-27T00:00:00Z"
-
-# Optional external URL for project (replaces project detail page).
 external_link: ""
 
-#image:
-#  caption: Photo by rawpixel on Unsplash
-#  focal_point: Smart
 
 #links:
 #- icon: twitter
-#  icon_pack: fab
-#  name: Follow
-#  url: https://twitter.com/georgecushen
 #url_code: ""
 #url_pdf: ""
 #url_slides: ""
 #url_video: ""
 
-# Slides (optional).
-#   Associate this project with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
-slides: example
 ---
+
+a.Generating 20 data pairs
 
 
 ```python
@@ -64,6 +52,8 @@ print(data_pair)
      [ 0.91749612 -0.47233468]]
     
 
+b.Using root mean square error, finding weights of polynomial regression for order 0, 1, 3, 9
+
 
 ```python
 weights=[]
@@ -85,19 +75,15 @@ for deg in ((0,1,3,9)):
     weights.append(np.round(np.squeeze(lin_poly_reg.coef_,axis=0),2))
     names.append('M='+str(deg))
 
-print(weights)
-print(names)    
+#print(weights)
+#print(names)    
 
 
 
 
 ```
 
-    [array([0.]), array([ 0.  , -2.17]), array([  0.  ,  14.99, -42.65,  28.75]), array([ 0.00000000e+00, -2.73166320e+05,  3.06805472e+06, -1.85598492e+07,
-            6.80538375e+07, -1.58567596e+08,  2.36245442e+08, -2.17863352e+08,
-            1.13143738e+08, -2.52642661e+07])]
-    ['M=0', 'M=1', 'M=3', 'M=9']
-    
+c.Displaying weights in table
 
 
 ```python
@@ -129,9 +115,11 @@ print('w9 |',' '.rjust(10,' '),' '.rjust(10,' '),' '.rjust(10,' '),str(weights[3
     w9 |                                           -25264266.1
     
 
+d.chart of fit data
+
 
 ```python
-fig,axs=plt.subplots(2,2,figsize=(10,5))
+fig,axs=plt.subplots(2,2,figsize=(10,10))
 x_plot=np.arange(0,1,0.05)
 y_plot=np.sin(2*np.pi*x_plot)
 plt.ylim(-1.5,1.5)
@@ -150,8 +138,13 @@ for i in range(len(y_predict)):
 ```
 
 
-![png](./Suravajhula_01_4_0.png)
+![png](./Suravajhula_01_8_0.png)
 
+
+
+```python
+e.train error vs test error
+```
 
 
 ```python
@@ -192,8 +185,13 @@ plt.ylim(0,1)
 
 
 
-![png](./Suravajhula_01_5_1.png)
+![png](./Suravajhula_01_10_1.png)
 
+
+
+```python
+f.generating 100 more data and fit 9th order model and drawing fit
+```
 
 
 ```python
@@ -239,13 +237,15 @@ for i in range(len(y_predict_more_data)):
    
 ```
 
-    [<matplotlib.axes._subplots.AxesSubplot object at 0x0000015FF0D13708>
-     <matplotlib.axes._subplots.AxesSubplot object at 0x0000015FF0D45608>]
+    [<matplotlib.axes._subplots.AxesSubplot object at 0x000002255BFFEEC8>
+     <matplotlib.axes._subplots.AxesSubplot object at 0x000002255C251CC8>]
     
 
 
-![png](./Suravajhula_01_6_1.png)
+![png](./Suravajhula_01_12_1.png)
 
+
+g&h.Regularizing by using Ridge Regression and drawing chart for lambda is 1, 1/10, 1/100, 1/1000, 1/10000, 1/100000
 
 
 ```python
@@ -273,8 +273,13 @@ for i,a in enumerate(lambdas):
 ```
 
 
-![png](./Suravajhula_01_7_0.png)
+![png](./Suravajhula_01_14_0.png)
 
+
+
+```python
+i.drawing test and train error according to lamda
+```
 
 
 ```python
@@ -310,12 +315,12 @@ plt.legend()
 
 
 
-    <matplotlib.legend.Legend at 0x15ff2431e08>
+    <matplotlib.legend.Legend at 0x2255d900d88>
 
 
 
 
-![png](./Suravajhula_01_8_1.png)
+![png](./Suravajhula_01_16_1.png)
 
 
 
@@ -326,7 +331,7 @@ plt.legend()
 # With this lambda value i find there is no difference in test error and train error.
 # At the same time we can observe that in the previous sectional graph(i.e.,for different lambdas) also 
 # the predicted test graph almost follows the original sin wave(expected data).
-# Both of these proves that lambda's best value is 10^-4.
+# Both of these proves that lambda's best value is 10^-4(0)
 ```
 
 
