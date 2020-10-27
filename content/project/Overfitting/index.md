@@ -13,7 +13,7 @@ external_link: ""
 
 #links:
 #- icon: twitter
-url_code: "files/Suravajhula_01.ipynb"
+url_code: "https://www.dropbox.com/s/peiidyd5e9336rd/Suravajhula_01.ipynb?dl=1"
 #url_pdf: "files/Suravajhula_01.ipynb"
 #url_slides: "./Suravajhula_01.ipynb"
 #url: "files/Suravajhula_01.ipynb"
