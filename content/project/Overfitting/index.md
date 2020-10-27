@@ -10,8 +10,8 @@ external_link: ""
 
 #links:
 #- icon: twitter
-#url_code: ""
-#url_pdf: ""
+#url_code: "Suravajhula_01.ipynb"
+#url_pdf: "files/cv.pdf"
 #url_slides: ""
 #url_video: ""
 
