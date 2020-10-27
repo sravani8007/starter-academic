@@ -17,7 +17,7 @@ external_link: ""
 
 ---
 
-a.Generating 20 data pairs
+### a.Generating 20 data pairs
 
 
 ```python
@@ -52,7 +52,7 @@ print(data_pair)
      [ 0.91749612 -0.47233468]]
     
 
-b.Using root mean square error, finding weights of polynomial regression for order 0, 1, 3, 9
+### b.Using root mean square error, finding weights of polynomial regression for order 0, 1, 3, 9
 
 
 ```python
@@ -83,39 +83,39 @@ for deg in ((0,1,3,9)):
 
 ```
 
-c.Displaying weights in table
+### c.Displaying weights in table
 
 
 ```python
-print('   | ','M=0'.rjust(10,' '),'M=1'.rjust(10,' '),'M=3'.rjust(10,' '),'M=9'.rjust(20,' '))
+print('   | ','M=0'.rjust(10,' '),'|','M=1'.rjust(10,' '),'|','M=3'.rjust(10,' '),'|','M=9'.rjust(20,' '),'|')
 print('-----------------------------------------------------------------------------------')
-print('w0 | ',str(weights[0][0]).rjust(10,' '),str(weights[1][0]).rjust(10,' '),str(weights[2][0]).rjust(10,' '),str(weights[3][0]).rjust(20,' '))
-print('w1 | ',' '.rjust(10,' '),str(weights[1][1]).rjust(10,' '),str(weights[2][1]).rjust(10,' '),str(weights[3][1]).rjust(20,' '))
-print('w2 | ',' '.rjust(10,' '),' '.rjust(10,' '),str(weights[2][2]).rjust(10,' '),str(weights[3][2]).rjust(20,' '))
-print('w3 | ',' '.rjust(10,' '),' '.rjust(10,' '),str(weights[2][3]).rjust(10,' '),str(weights[3][3]).rjust(20,' '))
-print('w4 | ',' '.rjust(10,' '),' '.rjust(10,' '),' '.rjust(10,' '),str(weights[3][4]).rjust(20,' '))
-print('w5 | ',' '.rjust(10,' '),' '.rjust(10,' '),' '.rjust(10,' '),str(weights[3][5]).rjust(20,' '))
-print('w6 | ',' '.rjust(10,' '),' '.rjust(10,' '),' '.rjust(10,' '),str(weights[3][6]).rjust(20,' '))
-print('w7 | ',' '.rjust(10,' '),' '.rjust(10,' '),' '.rjust(10,' '),str(weights[3][7]).rjust(20,' '))
-print('w8 | ',' '.rjust(10,' '),' '.rjust(10,' '),' '.rjust(10,' '),str(weights[3][8]).rjust(20,' '))
-print('w9 |',' '.rjust(10,' '),' '.rjust(10,' '),' '.rjust(10,' '),str(weights[3][9]).rjust(20,' '))
+print('w0 | ',str(weights[0][0]).rjust(10,' '),'|',str(weights[1][0]).rjust(10,' '),'|',str(weights[2][0]).rjust(10,' '),'|',str(weights[3][0]).rjust(20,' '),'|')
+print('w1 | ',' '.rjust(10,' '),'|',str(weights[1][1]).rjust(10,' '),'|',str(weights[2][1]).rjust(10,' '),'|',str(weights[3][1]).rjust(20,' '),'|')
+print('w2 | ',' '.rjust(10,' '),'|',' '.rjust(10,' '),'|',str(weights[2][2]).rjust(10,' '),'|',str(weights[3][2]).rjust(20,' '),'|')
+print('w3 | ',' '.rjust(10,' '),'|',' '.rjust(10,' '),'|',str(weights[2][3]).rjust(10,' '),'|',str(weights[3][3]).rjust(20,' '),'|')
+print('w4 | ',' '.rjust(10,' '),'|',' '.rjust(10,' '),'|',' '.rjust(10,' '),'|',str(weights[3][4]).rjust(20,' '),'|')
+print('w5 | ',' '.rjust(10,' '),'|',' '.rjust(10,' '),'|',' '.rjust(10,' '),'|',str(weights[3][5]).rjust(20,' '),'|')
+print('w6 | ',' '.rjust(10,' '),'|',' '.rjust(10,' '),'|',' '.rjust(10,' '),'|',str(weights[3][6]).rjust(20,' '),'|')
+print('w7 | ',' '.rjust(10,' '),'|',' '.rjust(10,' '),'|',' '.rjust(10,' '),'|',str(weights[3][7]).rjust(20,' '),'|')
+print('w8 | ',' '.rjust(10,' '),'|',' '.rjust(10,' '),'|',' '.rjust(10,' '),'|',str(weights[3][8]).rjust(20,' '),'|')
+print('w9 | ',' '.rjust(10,' '),'|',' '.rjust(10,' '),'|',' '.rjust(10,' '),'|',str(weights[3][9]).rjust(20,' '),'|')
 ```
 
-       |         M=0        M=1        M=3                  M=9
+       |         M=0 |        M=1 |        M=3 |                  M=9 |
     -----------------------------------------------------------------------------------
-    w0 |         0.0        0.0        0.0                  0.0
-    w1 |                  -2.17      14.99           -273166.32
-    w2 |                            -42.65           3068054.72
-    w3 |                             28.75         -18559849.22
-    w4 |                                            68053837.47
-    w5 |                                           -158567595.9
-    w6 |                                            236245442.4
-    w7 |                                          -217863351.82
-    w8 |                                           113143738.41
-    w9 |                                           -25264266.1
+    w0 |         0.0 |        0.0 |        0.0 |                  0.0 |
+    w1 |             |      -2.17 |      14.99 |           -273166.32 |
+    w2 |             |            |     -42.65 |           3068054.72 |
+    w3 |             |            |      28.75 |         -18559849.22 |
+    w4 |             |            |            |          68053837.47 |
+    w5 |             |            |            |         -158567595.9 |
+    w6 |             |            |            |          236245442.4 |
+    w7 |             |            |            |        -217863351.82 |
+    w8 |             |            |            |         113143738.41 |
+    w9 |             |            |            |          -25264266.1 |
     
 
-d.chart of fit data
+### d.chart of fit data
 
 
 ```python
@@ -141,10 +141,7 @@ for i in range(len(y_predict)):
 ![png](./Suravajhula_01_8_0.png)
 
 
-
-```python
-e.train error vs test error
-```
+### e.train error vs test error
 
 
 ```python
@@ -188,10 +185,7 @@ plt.ylim(0,1)
 ![png](./Suravajhula_01_10_1.png)
 
 
-
-```python
-f.generating 100 more data and fit 9th order model and drawing fit
-```
+### f.generating 100 more data and fit 9th order model and drawing fit
 
 
 ```python
@@ -222,7 +216,7 @@ for i in ((30,200)):
     y_more_data.append(y_test_data)
     
 fig,axs=plt.subplots(1,2,figsize=(10,4))
-print(axs)
+#print(axs)
 plt.ylim(-1.5,1.5)
 for i in range(len(y_predict_more_data)):
     #plt.subplot(2,2,i+1)
@@ -237,15 +231,11 @@ for i in range(len(y_predict_more_data)):
    
 ```
 
-    [<matplotlib.axes._subplots.AxesSubplot object at 0x000002255BFFEEC8>
-     <matplotlib.axes._subplots.AxesSubplot object at 0x000002255C251CC8>]
-    
+
+![png](./Suravajhula_01_12_0.png)
 
 
-![png](./Suravajhula_01_12_1.png)
-
-
-g&h.Regularizing by using Ridge Regression and drawing chart for lambda is 1, 1/10, 1/100, 1/1000, 1/10000, 1/100000
+### g&h.Regularizing by using Ridge Regression and drawing chart for lambda is 1, 1/10, 1/100, 1/1000, 1/10000, 1/100000
 
 
 ```python
@@ -276,10 +266,7 @@ for i,a in enumerate(lambdas):
 ![png](./Suravajhula_01_14_0.png)
 
 
-
-```python
-i.drawing test and train error according to lamda
-```
+### i.drawing test and train error according to lamda
 
 
 ```python
@@ -315,7 +302,7 @@ plt.legend()
 
 
 
-    <matplotlib.legend.Legend at 0x2255d900d88>
+    <matplotlib.legend.Legend at 0x2217c49eb08>
 
 
 
@@ -323,15 +310,13 @@ plt.legend()
 ![png](./Suravajhula_01_16_1.png)
 
 
-
-```python
-# I used Linear regression with polynomial features for polynomial regression.
-# I used Ridge regression with polynomial features for regularization.
-# Based on my test scenarios i found the best lambda for degree 9 is 10^-4(0.0001),
-# With this lambda value i find there is no difference in test error and train error.
-# At the same time we can observe that in the previous sectional graph(i.e.,for different lambdas) also 
-# the predicted test graph almost follows the original sin wave(expected data).
-# Both of these proves that lambda's best value is 10^-4(0)
-```
+### Conclusion: 
+    In this project to understand the overfitting i started with Polynomila regression for 4 different degrees using the Linear regression with polynomial features.
+    
+    Based on the results, i observed overfitting clearly for the 9th order polynomial. To regulrize the 9th order polynomial i used Ridge regression with Plynomial Features.
+    
+    Finally, i found the best lambda value for my model with degree 9 is 10^-4(0.0001), When i use this lambda value there is no difference in test error and train error. With this lambda value along with RMS values, even the trained data graph (as shown in section h) closely follows the expected data (Original wave)
+    
+    This infers, my model is degree 9 model with mabda value 10^-4
 
 
