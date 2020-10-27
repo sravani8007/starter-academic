@@ -10,10 +10,10 @@ external_link: ""
 
 #links:
 #- icon: twitter
-url_code: "Suravajhula_01.ipynb"
-url_pdf: "files/Suravajhula_01.ipynb"
-url_slides: "./Suravajhula_01.ipynb"
-url: "files/Suravajhula_01.ipynb"
+url_code: "files/Suravajhula_01.ipynb"
+#url_pdf: "files/Suravajhula_01.ipynb"
+#url_slides: "./Suravajhula_01.ipynb"
+#url: "files/Suravajhula_01.ipynb"
 #url_video: ""
 
 ---
