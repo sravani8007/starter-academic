@@ -1,6 +1,4 @@
 
-
-
 ---
 title: Overfitting
 summary: Using polynomial regression idetified the Overfitting and then using regularization
@@ -21,11 +19,12 @@ url_code: "https://www.dropbox.com/s/peiidyd5e9336rd/Suravajhula_01.ipynb?dl=1"
 
 ---
 
-
 ### Assignment 1
 
 Name: Sravani Suravajhula
-Id:1001778007
+UTA Id:1001778007
+
+
 
 
 ### a.Generating 20 data pairs
@@ -177,9 +176,10 @@ for deg in range(10):
     error_test_temp=np.sqrt((((y_test-model_poly_test)**2).sum())/y_test.shape[0])
     train_error.append(error_train_temp)
     test_error.append(error_test_temp)
-plt.plot(train_error)
-plt.plot(test_error)
+plt.plot(train_error,label='Train Error')
+plt.plot(test_error,label='Test Error')
 plt.ylim(0,1)
+plt.legend()
 
     
 
@@ -188,7 +188,7 @@ plt.ylim(0,1)
 
 
 
-    (0, 1)
+    <matplotlib.legend.Legend at 0x25574dc83c8>
 
 
 
@@ -203,6 +203,7 @@ plt.ylim(0,1)
 x_more_data=[]
 y_predict_more_data=[]
 y_more_data=[]
+y_names=[]
 for i in ((30,200)):    
     x_data=np.sort(np.random.uniform(0,1,i)).reshape(-1,1)
     N_data=np.random.normal(0,0.1,x_data.shape)
@@ -225,6 +226,7 @@ for i in ((30,200)):
     y_predict_more_data.append(model_poly_test)
     x_more_data.append(x_test_data)
     y_more_data.append(y_test_data)
+    y_names.append('Data size='+str(i))
     
 fig,axs=plt.subplots(1,2,figsize=(10,4))
 #print(axs)
@@ -235,10 +237,11 @@ for i in range(len(y_predict_more_data)):
     col=i
     
     #plt.title(names[i])
-    axs[col].plot(x_data,np.sin(2*np.pi*x_data),color='green')
-    axs[col].plot(x_more_data[i],y_predict_more_data[i],color='red')
-    axs[col].scatter(x_more_data[i],y_more_data[i])
-    #axs[col].set_title(names[i])
+    axs[col].plot(x_data,np.sin(2*np.pi*x_data),color='green',label='Sin Wave')
+    axs[col].plot(x_more_data[i],y_predict_more_data[i],color='red',label='Predicted')
+    axs[col].scatter(x_more_data[i],y_more_data[i],label='Test points')
+    axs[col].set_title(y_names[i])
+    axs[col].legend()
    
 ```
 
@@ -302,8 +305,8 @@ for a in range(0,-16,-1):
     error_test_temp=np.sqrt((((y_test-model_poly_test)**2).sum())/y_test.shape[0])
     train_error.append(error_train_temp)
     test_error.append(error_test_temp)
-plt.plot(log_lambdas,train_error,label='training')
-plt.plot(log_lambdas,test_error,label='test')
+plt.plot(log_lambdas,train_error,label='Training Error')
+plt.plot(log_lambdas,test_error,label='Test Error')
 plt.ylim(0,1)
 plt.xlabel('ln lambda')
 plt.ylabel('E_Rms')
@@ -313,7 +316,7 @@ plt.legend()
 
 
 
-    <matplotlib.legend.Legend at 0x2217c49eb08>
+    <matplotlib.legend.Legend at 0x255768e2ec8>
 
 
 
