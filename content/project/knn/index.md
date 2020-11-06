@@ -1,8 +1,7 @@
-
 ---
 title: KNN
-summary: Using polynomial regression idetified the Overfitting and then using regularization
-        improved the results.
+summary: In this project i used iris dataset to understand the knn model with three different metrics.
+          we identified the best k value using the train and development data set and validate it using test dataset. 
 tags:
 - Python
 date: "2016-04-27T00:00:00Z"
@@ -11,7 +10,7 @@ external_link: ""
 
 #links:
 #- icon: twitter
-url_code: "https://www.dropbox.com/s/peiidyd5e9336rd/Suravajhula_01.ipynb?dl=1"
+url_code: "https://www.dropbox.com/s/5wejq3o3vex2kfg/Suravajhula-02.ipynb?dl=1"
 #url_pdf: "files/Suravajhula_01.ipynb"
 #url_slides: "./Suravajhula_01.ipynb"
 #url: "files/Suravajhula_01.ipynb"
@@ -24,7 +23,6 @@ url_code: "https://www.dropbox.com/s/peiidyd5e9336rd/Suravajhula_01.ipynb?dl=1"
 Name: Sravani Suravajhula
 UTA Id:1001778007
 
-
 ## a.Divide the dataset as development and test
 
 
@@ -33,7 +31,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 from collections import Counter
-np.random.seed(50)
+np.random.seed(1)
 
 data=np.genfromtxt('iris.csv',dtype=str,delimiter=',')
 total_index=np.arange(0,data.shape[0])
@@ -64,15 +62,15 @@ print(test_index)
 
 ```
 
-    [ 88  72  20  16 147 140 113  23  12  68  39 130  34 112  55  25  82  48
-      81  77 100  80  14 131  86 118  56  54  97 143 125  98  73 144  21   3
-      59 119  84   7  41  57 104   8 102  17  42  18 146 114  75   5  15  63
-     142  99  50  27  38 122 117  74 103  40  37 116  78   4  53  44 107 137
-      65 128  69  47  87  32  89  52  29   9  61   1  83  45  90 127 129 135]
-    [ 58 123  36 101  13  62  46 136  24  28 138 149 120 124  11 148  94 108
-      93   0  51 110  10 126  67  96  76  66 121  60]
-    [ 26 115  35 105  30  79 141  19   6  64 106  85  49  31  43 134  91  92
-     111  71  95   2 133  22 145  70 132  33 109 139]
+    [ 56  47  48  42  30 122  26 142 138  67  17  49  52  59  38  11 124  66
+      51  71  75  25  99  24 149  44  53   6  83 121 148  60 120 136   2  62
+      45  54 125  57  16 132  98  41 128  22  74   4  90 105 127 143 102 131
+     104  29  39 117 113  12  50   8   9   0  80  77  13 140  21 133  55  91
+     116  36 134   7 106 115 130  89 114 112  65  85 100  95  31 144  93  92]
+    [ 27  73  76  43  15 145  94   1 107  46  32 137  82  87  81  33  88  35
+      70  58  64 126  63  40 119 141 139 109  34   3]
+    [110  10 108 111 103 147  86  78  79  23  61  68 146  14  96 101  37  72
+      18 135  97  28   5  69 123  19 129 118  84  20]
     
 
 ## b.implementing knn using distance metric Euclidean distance
@@ -171,20 +169,20 @@ ax.legend()
 ```
 
                      k=1       k=3       k=5       k=7
-    eucli       1.000000  0.966667  0.900000  0.900000
-    norm_eucli  0.933333  0.933333  0.933333  0.966667
-    cosine      1.000000  1.000000  1.000000  1.000000
+    eucli       0.933333  0.966667  0.966667  0.966667
+    norm_eucli  0.933333  0.900000  0.933333  0.966667
+    cosine      1.000000  0.966667  0.966667  0.966667
     
 
 
 
 
-    <matplotlib.legend.Legend at 0x16835f72588>
+    <matplotlib.legend.Legend at 0x1df0698a288>
 
 
 
 
-![png](./Assignment2_9_2.png)
+![png](./Suravajhula-02_9_2.png)
 
 
 From my observations at k=5 and k=7 we are getting consistent accuracy.i am choosing k=7 as it is optimal and consistent.
@@ -214,16 +212,16 @@ print(pd_test)
 ```
 
                      k=7
-    eucli       0.933333
-    norm_eucli  0.900000
-    cosine      0.966667
+    eucli       1.000000
+    norm_eucli  0.966667
+    cosine      0.933333
     
 
 
-![png](./Assignment2_12_1.png)
+![png](./Suravajhula-02_12_1.png)
 
 
-From the results above, the cosine similarity with k=7 gives the best optimal accurasy.
+From my results above, the euclidean distance  with k=7 gives the best optimal accurasy.
 
 
 ```python
