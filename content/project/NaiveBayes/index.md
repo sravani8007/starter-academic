@@ -24,6 +24,9 @@ url_code: "https://www.dropbox.com/s/9669extk41gpbjl/Suravajhula_03.ipynb?dl=1"
 Name: Sravani Suravajhula
 UTA Id:1001778007
 
+In this project i implemented Naive Bayes Classifier from scratch in python.
+for this assignment i used text dataset about movie review(http://ai.stanford.edu/~amaas/data/sentiment/).
+
 
 ```python
 import itertools
