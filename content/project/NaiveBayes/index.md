@@ -178,8 +178,7 @@ print(final_words['the'])
     {'pos': 9946, 'neg': 9886, 'total': 19832, 'pos_prob': 0.9904401513642701, 'neg_prob': 0.9927696324563166, 'total_prob': 0.9916}
     
 
-## Calculating the probability of occurence of a word and
-## conditional probability based on sentiment with smoothing
+## Calculating the probability of occurence of a word and conditional probability based on sentiment with smoothing
 
 
 ```python
