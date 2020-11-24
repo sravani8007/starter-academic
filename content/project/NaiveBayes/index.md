@@ -1,6 +1,8 @@
 ---
 title: Naive Bayes Classifier
-summary: In this project 
+summary: In this project i calculated naive bayes classifier for a large text dataset(largest movie review).
+        I calculated conditional probability for all the words and used it to determine the sentiment of review
+        In this process i verified the results by applying five-fold cross validation along with laplace smoothing.
 tags:
 - Python
 date: "2016-04-27T00:00:00Z"
@@ -9,10 +11,10 @@ external_link: ""
 
 #links:
 #- icon: twitter
-url_code: "https://www.dropbox.com/s/x6sb2zwhh08h92g/Suravajhula-02.ipynb?dl=1"
-#url_pdf: "files/Suravajhula_01.ipynb"
-#url_slides: "./Suravajhula_01.ipynb"
-#url: "files/Suravajhula_01.ipynb"
+url_code: "https://www.dropbox.com/s/x6sb2zwhh08h92g/Suravajhula-03.ipynb?dl=1"
+#url_pdf: "files/Suravajhula_03.ipynb"
+#url_slides: "./Suravajhula_03.ipynb"
+#url: "files/Suravajhula_03.ipynb"
 #url_video: ""
 
 ---
