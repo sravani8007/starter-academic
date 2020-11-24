@@ -138,8 +138,7 @@ print(train_data_x_cnted[0])
     {'the': 10, 'film': 3, 'was': 3, 'okay': 1, 'quite': 2, 'entertaining': 2, 'cast': 1, 'pretty': 1, 'good': 1, 'and': 4, 'ill': 1, 'second': 1, 'what': 1, 'comment': 1, 'before': 1, 'me': 1, 'mentioned': 1, 'glenn': 1, 'quinn': 1, 'outstanding': 1, 'he': 2, 'alone': 1, 'is': 2, 'reason': 1, 'enough': 1, 'to': 5, 'watch': 1, 'this': 3, 'movie': 1, 'played': 1, 'selfish': 1, 'evil': 1, 'friend': 1, 'manager': 1, 'of': 3, 'band': 2, 'brilliantlybr': 1, 'br': 2, 'there': 2, 'are': 1, 'a': 4, 'lot': 1, 'songs': 1, 'performed': 1, 'by': 1, 'beyond': 1, 'gravity': 1, 'in': 2, 'but': 3, 'doesnt': 1, 'really': 1, 'come': 1, 'as': 2, 'surprise': 1, 'considering': 1, 'vh1': 1, 'production': 1, 'however': 1, 'if': 1, 'soft': 1, 'rock': 1, 'pop': 1, 'music': 1, 'isnt': 2, 'someones': 1, 'liking': 1, 'one': 1, 'might': 1, 'well': 1, 'flash': 1, 'forward': 1, 'those': 1, 'scenesbr': 1, 'plot': 2, 'trying': 1, 'make': 1, 'it': 1, 'top': 1, 'la': 1, 'having': 1, 'overcome': 1, 'many': 1, 'obstacles': 1, 'on': 1, 'way': 1, 'too': 1, 'original': 1, 'with': 1, 'some': 1, 'surprising': 1, 'turns': 1, 'here': 1}
     
 
-## Calculating the probability of occurence of a word and
-## conditional probability based on sentiment
+## Calculating the probability of occurence of a word and conditional probability based on sentiment
 
 
 ```python
