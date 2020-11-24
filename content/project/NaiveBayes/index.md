@@ -25,7 +25,7 @@ Name: Sravani Suravajhula
 UTA Id:1001778007
 
 In this project i implemented Naive Bayes Classifier from scratch in python.
-for this assignment i used text dataset about movie review(http://ai.stanford.edu/~amaas/data/sentiment/).
+for this assignment i used text dataset about movie review (http://ai.stanford.edu/~amaas/data/sentiment/).
 
 
 ```python
