@@ -1,7 +1,8 @@
 ---
+widget = "contact"
 title: Rating Predictor
 
-widget = "contact"
+
 
 summary: In this project i calculated naive bayes classifier for a large text dataset(largest movie review).
         I calculated conditional probability for all the words and used it to determine the sentiment of review
