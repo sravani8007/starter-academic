@@ -1,13 +1,13 @@
 
 ---
 title: Board Game Review
-summary:In this project we analyze the Board Game Geek Reviews,ratings and 
-        build a machine learning models which can predict ratings for a review.
-        Inaddition to that using one of the models built a web application that 
-        can take a review and predict the rating.
+summary: In this project we analyze the Board Game Geek Reviews,ratings and 
+         build a machine learning models which can predict ratings for a review.
+         Inaddition to that using one of the models built a web application that 
+         can take a review and predict the rating.
 tags:
 - Python
-date: "2016-04-27T00:00:00Z"
+date: "2020-12-13T00:00:00Z"
 external_link: ""
 
 
