@@ -1,3 +1,23 @@
+---
+title: Board Game Review
+summary: Using polynomial regression idetified the Overfitting and then using regularization
+        improved the results.
+tags:
+- Python
+date: "2016-04-27T00:00:00Z"
+external_link: ""
+
+
+#links:
+#- icon: twitter
+url_code: "https://www.dropbox.com/s/peiidyd5e9336rd/Suravajhula_01.ipynb?dl=1"
+#url_pdf: "files/Suravajhula_01.ipynb"
+#url_slides: "./Suravajhula_01.ipynb"
+#url: "files/Suravajhula_01.ipynb"
+#url_video: ""
+
+---
+
 Name : Sravani Suravajhula
 UTA ID : 1001778007
 
