@@ -1547,7 +1547,7 @@ I think given the capacity of the servers both size and processing power, Random
 
 * Kaggle Notebook Link : https://www.kaggle.com/sravanisuravajhula/notebook4eed262169/edit
 
-* github Link : https://github.com/sravani8007/starter-academic/tree/master/content/project/BoardGame
+* github Link : https://github.com/sravani8007/RatingPredictor
 
 * Demo video link : 
 
