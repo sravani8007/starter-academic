@@ -1543,10 +1543,13 @@ Due to the sheer size of data it took good amount of time to cleanup the data. I
 
 I think given the capacity of the servers both size and processing power, RandomForestClassifier can give better results.
 
-My online rating predictor can be found at http://sravanisuravajhula.pythonanywhere.com/
-Kaggle Notebook Link https://www.kaggle.com/sravanisuravajhula/notebook4eed262169/edit
-github Link 
-Demo vedio link 
+* My online rating predictor can be found at http://sravanisuravajhula.pythonanywhere.com/
+
+* Kaggle Notebook Link : https://www.kaggle.com/sravanisuravajhula/notebook4eed262169/edit
+
+* github Link : https://github.com/sravani8007/starter-academic/tree/master/content/project/BoardGame
+
+* Demo video link : 
 
 
 ##### References:
