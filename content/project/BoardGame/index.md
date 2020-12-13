@@ -1,7 +1,8 @@
 ---
 title: Board Game Review
-summary: Using polynomial regression idetified the Overfitting and then using regularization
-        improved the results.
+summary:In this project we analyze the Board Game Geek Reviews,ratings and 
+        build a machine learning models which can predict ratings for a review.
+        Inaddition to that using one of the models built a web application that can take a review and predict the rating.
 tags:
 - Python
 date: "2016-04-27T00:00:00Z"
@@ -1541,6 +1542,10 @@ Due to the sheer size of data it took good amount of time to cleanup the data. I
 I think given the capacity of the servers both size and processing power, RandomForestClassifier can give better results.
 
 My online rating predictor can be found at http://sravanisuravajhula.pythonanywhere.com/
+Kaggle Notebook Link:https://www.kaggle.com/sravanisuravajhula/notebook4eed262169/edit
+github Link:
+Demo vedio link:
+
 
 ##### References:
 
