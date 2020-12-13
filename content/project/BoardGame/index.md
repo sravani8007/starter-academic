@@ -1549,7 +1549,7 @@ I think given the capacity of the servers both size and processing power, Random
 
 * github Link : https://github.com/sravani8007/RatingPredictor
 
-* Demo video link : 
+* Demo video link : https://youtu.be/pEgUihjw6uU
 
 
 ##### References:
