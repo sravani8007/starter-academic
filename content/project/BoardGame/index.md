@@ -1545,7 +1545,7 @@ I think given the capacity of the servers both size and processing power, Random
 
 * My online rating predictor can be found at http://sravanisuravajhula.pythonanywhere.com/
 
-* Kaggle Notebook Link : https://www.kaggle.com/sravanisuravajhula/notebook4eed262169/edit
+* Kaggle Notebook Link : https://www.kaggle.com/sravanisuravajhula/rating-predictor
 
 * github Link : https://github.com/sravani8007/RatingPredictor
 
